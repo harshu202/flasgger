@@ -50,6 +50,7 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
+        'marshmallow',
         'Flask>=0.10',
         'PyYAML>=3.0',
         'jsonschema>=2.5.1',
